@@ -1,0 +1,47 @@
+{
+  "_comment": "Fixed inputs for generate.py. Signatures are created once with --resign.",
+  "device_id": "3F9A2C",
+  "setup_code": "48213907",
+  "ca_cert": "demo/pki/teton-demo-root-ca.crt",
+  "device_cert": "tests/vectors/vector-device.crt",
+  "device_key": "tests/vectors/vector-device.key",
+  "eph_c_priv": "bf89139259893b3fec900f34d01238d75bea9dc5c9287bfe90be983463f4ed81",
+  "eph_d_priv": "c5ea270a4ee83d09f939b5f911f5a7e43593b6ffa3805e914334c28a05adab66",
+  "nonce_c": "8f2993dc4b2abf3926ea86b3d0692d5ef0815fa7ecaf0120cd5e69765d4aaf1d",
+  "nonce_d": "23be6881c0e4986d0442734fcb4f0f9607b4fdfdafd5f6a05a1af4f717170cb5",
+  "set_wifi": {
+    "t": "set_wifi",
+    "ssid": "StMarys-Devices",
+    "psk": "Wing4-Clinical!",
+    "security": "wpa2",
+    "hidden": false,
+    "country": "US"
+  },
+  "result_body": {
+    "ok": true,
+    "device_id": "3F9A2C",
+    "ssid": "StMarys-Devices",
+    "ip": "192.168.50.23",
+    "gateway": "192.168.50.1",
+    "gateway_reachable": true,
+    "boot_id": "6f1c2a9e-0b7d-4a51-9c3e-2d8f4b7a1e60",
+    "uptime_s": 1234
+  },
+  "site_profile": {
+    "passphrase": "correct horse battery staple",
+    "iterations": 600000,
+    "salt": "574e70c55497e3751b5b7f5ba96d8975",
+    "nonce": "9504bfb90f864f99a9a978e4",
+    "profile": {
+      "v": 1,
+      "name": "St Marys Wing 4",
+      "ssid": "StMarys-Devices",
+      "security": "wpa2",
+      "psk": "Wing4-Clinical!",
+      "hidden": false,
+      "country": "US"
+    }
+  },
+  "device_auth_sig": "MEUCIQC+X6FNjKvEjWnFEj8f1p5Gg2L9ByDiD+1KogwjXOyDvAIgHfI/NIO06wm2dP7yMZgs2il9yx2Ed0ChvpF/AIuBxLg=",
+  "result_sig": "MEUCIQCA4BnUJk9YakSRQ+/Orkexn1oMPdqDszceaw7PP5k4KAIgVQ+v6djSriHZAO6RRXncRdfL5Dq6Zd9PV1a1DpL6u1Q="
+}
